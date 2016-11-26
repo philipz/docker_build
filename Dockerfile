@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM debain
 MAINTAINER docker "docker@nginx.com"
 RUN apt-get update && apt-get install -y nginx
 CMD ["nginx", "-g", "daemon off;"]
